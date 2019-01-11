@@ -11,11 +11,11 @@ namespace testesCsharp
         static void Main(string[] args)
         {
             string menu = string.Empty;
-            while(menu != "out")
+            while (menu != "out")
             {
                 Console.WriteLine("Escolha o menu:");
                 menu = Console.ReadLine();
-                switch(menu)
+                switch (menu)
                 {
                     case "a":
                         string Sarray = Console.ReadLine();
@@ -23,12 +23,13 @@ namespace testesCsharp
                         long result = TotalAllEvenNumbers(array);
                         Console.WriteLine("Sumatorio dos numeros pares: " + result);
                         break;
-
+                    case "b":
+                        break;
                     case "out":
                         break;
                 }
-            } 
-            
+            }
+
 
         }
         private static long TotalAllEvenNumbers(int[] intArray)
