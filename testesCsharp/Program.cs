@@ -23,7 +23,7 @@ namespace testesCsharp
                         long result = TotalAllEvenNumbers(array);
                         Console.WriteLine("Sumatorio dos numeros pares: " + result);
                         break;
-                    case "b":
+                    case "b": 
                         break;
                     case "out":
                         break;
